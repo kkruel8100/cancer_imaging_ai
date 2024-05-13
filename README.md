@@ -37,7 +37,7 @@ Images were downloaded from Kaggle to local machine. "dataset_creation.ipynb" fi
 
 Pickle files were loaded to AWS S3 storage. "dataset_load.ipynb" file loads the pickle files from AWS. It then saves the files into local.
 
-<b>Note: .env file is required to access AWS. To save costs, the files are saved into local folder for developer use.<b>
+<b>Note: .env file is required to access AWS. To save costs, the files are saved into local folder for developer use. This file only needs to be ran once to create local files.<b>
 
 ##### Step 3:
 
