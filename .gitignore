@@ -161,3 +161,6 @@ cython_debug/
 
 # ignore .pkl files in datasets directory - hosted with AWS
 datasets/*.pkl
+
+#ignore .h5 files in datasets directory - hosted with AWS
+models/*.h5
