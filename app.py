@@ -14,7 +14,7 @@ from langchain.schema import HumanMessage, SystemMessage
 from langchain_openai import ChatOpenAI
 
 # Set the model's file path
-file_path = Path("models/model_adam_scaled.h5")
+file_path = Path("models/model_adam_5.h5")
 
 # Load the model to a new object
 adam_5 = tf.keras.models.load_model(file_path)
