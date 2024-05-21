@@ -8,6 +8,7 @@
 
 #### Program Structure
 
+
 └───root
     └───datasets
         │   test_benign.pkl
@@ -15,7 +16,7 @@
         │   test.pkl
         │   train_benign.pkl
         │   train_malignant.pkl
-        └───train.pkl
+        └───train.pkl          
     └───models
         │   model_adam_5.h5
         │   model_adam_scaled.h5
