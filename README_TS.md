@@ -83,7 +83,7 @@ from langchain.schema import HumanMessage, SystemMessage
 from langchain_openai import ChatOpenAI
 
 #### 2. Load Model
-file_path = Path("models/model_adam_scaled.h5")
+file_path = Path("models/model_adam_5.h5")
 adam_5 = tf.keras.models.load_model(file_path)
 
 #### 3. Setup Gradio Interface:
@@ -104,7 +104,7 @@ gr.Interface(
     title="Skin Cancer Diagnostic Tool"
 ).launch()
 
-This setup allows users to upload skin images and receive diagnostic predictions through an easy-to-use web interface. The model used for prediction is model_adam_scaled.h5, and it leverages TensorFlow and Gradio for deployment
+This setup allows users to upload skin images and receive diagnostic predictions through an easy-to-use web interface. The model used for prediction is model_adam_5.h5, and it leverages TensorFlow and Gradio for deployment
 
 To launch the Gradio interface, run the `gradio.ipynb` notebook. The main components of the interface are:
 
@@ -132,12 +132,15 @@ To launch the Gradio interface, run the `gradio.ipynb` notebook. The main compon
 #### Screenshot
 The interface will look something like this:
 
-![Screenshot](./images/screenshot.png)
-
+![Screenshot](./images/gradio_screenshot_1.png)
+![Screenshot](./images/gradio_screenshot_2.png)
 ##### Resources
 
-
 Utils/conda_list.txt contains the conda environment that this app was processed in.
+
+#### Extrernal Link
+Hugging Face
+https://huggingface.co/spaces/kkruel/skin_cancer_detection_ai
 
 ##### Datasets
 
