@@ -7,29 +7,30 @@
 - Snyder, Todd
 
 #### Program Structure
-root
-└── datasets
-    ├── test_benign.pkl
-    ├── test_malignant.pkl
-    ├── test.pkl
-    ├── train_benign.pkl
-    ├── train_malignant.pkl
-    └── train.pkl
-└── models
-    ├── model_adam_5.h5
-    ├── model_adam_scaled.h5
-    └── model.h5
-└── utils
-    └── conda_list.txt
-├── .env
-├── .gitignore
-├── main.ipynb
-├── dataset_creation.ipynb
-├── dataset_load.ipynb
-├── dataset_read.ipynb
-├── gradio.ipynb
-└── modeling_hypertuning.ipynb
 
+└───root
+    └───datasets
+        │   test_benign.pkl
+        │   test_malignant.pkl
+        │   test.pkl
+        │   train_benign.pkl
+        │   train_malignant.pkl
+        └───train.pkl
+    └───models
+        │   model_adam_5.h5
+        │   model_adam_scaled.h5
+        └───model.h5
+    └───utils
+        └───conda_list.txt
+    │   .env
+    │   .gitignore
+    │   main.ipynb
+    │   dataset_creation.ipynb
+    │   dataset_load.ipynb
+    │   dataset_read.ipynb
+    │   gradio.ipynb
+    │   modeling_hypertuning.ipynb
+    └───README.md
 
 #### Data Processing
 
