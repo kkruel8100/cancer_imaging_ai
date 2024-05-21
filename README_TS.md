@@ -6,11 +6,7 @@
 - McClure, Mistie
 - Snyder, Todd
 
-Contributors
-Kruel, Kimberly
-McClure, Mistie
-Snyder, Todd
-Program Structure
+#### Program Structure
 root
 └── datasets
     ├── test_benign.pkl
@@ -35,7 +31,7 @@ root
 └── modeling_hypertuning.ipynb
 
 
-Data Processing
+#### Data Processing
 
 ##### Step 1:
 
