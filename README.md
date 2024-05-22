@@ -99,8 +99,8 @@ To launch the Gradio interface, run the `gradio.ipynb` notebook. The main compon
 ### Screenshot
 The interface will look something like this:
 
-![Screenshot](./images/gradio_screenshot_1.png)
-![Screenshot](./images/gradio_screenshot_2.png)
+![Screenshot](./images/gradio_screenshot_1.jpeg)
+![Screenshot](./images/gradio_screenshot_2.jpeg)
 
 ### Resources
 
